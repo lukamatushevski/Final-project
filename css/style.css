@@ -1,0 +1,351 @@
+/* Only header */
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: #800080;
+}
+.logo {
+  width: 350px;
+  height: 150px;
+}
+.logo img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: purple;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+i {
+  padding: 10px;
+}
+#psa {
+  display: none;
+}
+
+/* start of first section */
+
+.s-1 {
+  max-width: 1690px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 650px;
+  cursor: zoom-in;
+}
+.carousel {
+  padding-top: 70px;
+}
+.kaira {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 70px;
+}
+.fa-bars {
+  display: none;
+}
+/* Start of a new section */
+.s-2 {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+}
+.text {
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+.text a {
+  color: black;
+  text-decoration: none;
+}
+.text p {
+  color: #777;
+}
+.text a::selection {
+  background-color: black;
+}
+.text p::selection {
+  background-color: black;
+}
+.text h1::selection {
+  background-color: black;
+}
+.text h4 {
+  color: #777;
+}
+.text h4::selection {
+  background-color: black;
+}
+.text h3 {
+  color: #2d2d2de1;
+}
+.text h3::selection {
+  background-color: black;
+}
+.text li {
+  color: #777;
+  font-size: 20px;
+  line-height: 40px;
+  padding-bottom: 15px;
+}
+.text li::selection {
+  background-color: black;
+}
+.btn button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.navigaciasavit {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.navigaciasavit a {
+  border: none;
+  border-radius: 3%;
+  background-color: #e1dede;
+  color: #5a5858;
+}
+/* Still second section but second part */
+.nonetxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.download {
+  width: 300px;
+  height: 180px;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #e3e0e0;
+}
+.download p {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+.download p::selection {
+  background-color: black;
+}
+.download h6 {
+  font-weight: 680;
+  font-size: 18px;
+}
+.download h6::selection {
+  background-color: black;
+}
+.download button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.nonetxt h3 {
+  font-size: 21px;
+  color: #121212;
+  font-weight: 800;
+  padding-top: 15px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.popular img {
+  height: 160px;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: top;
+}
+.popular p {
+  text-align: center;
+  padding-top: 15px;
+}
+.popular p::selection {
+  background-color: black;
+}
+
+/* I should have studied scss */
+.s-3 {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.s-3 h3 {
+  padding-top: 55px;
+  padding-left: 55px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 150px;
+  flex: 33.33%;
+  padding: 15px;
+}
+.column img {
+  width: 100%;
+}
+
+.column p {
+  padding-top: 15px;
+  font-size: 20px;
+  color: rgb(81, 80, 80);
+  font-family: "Roboto", sans-serif;
+}
+.column p::selection {
+  background-color: #121212;
+}
+/* Previous comment was accurate S-4 styling... */
+.s-4 {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.s-4 h3 {
+  padding-top: 55px;
+  padding-left: 55px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+#card {
+  border: none;
+  width: 25%;
+}
+#card img {
+  max-width: 360px;
+}
+.card h6 {
+  text-decoration: none;
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+.card h6::selection {
+  background-color: #121212;
+}
+.card h2 {
+  font-size: 20px;
+  color: #000000;
+}
+.card h2::selection {
+  background-color: #121212;
+}
+.card p {
+  color: #777;
+}
+.card p::selection {
+  background-color: #000000;
+}
+.card button {
+  width: 200px;
+  height: 50px;
+  border-radius: 2em;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* footer styling */
+footer {
+  width: 100%;
+
+  background-color: #d7d4d4;
+}
+.futernav {
+  display: flex;
+  justify-content: space-around;
+}
+.cd {
+  padding: 50px 50px 25px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.cd h6 {
+  color: #111;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+}
+.cd a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  font-family: "Inter", sans-serif;
+}
+.cd h6::selection {
+  background-color: rgb(77, 75, 75);
+}
+.cd a::selection {
+  background-color: rgb(77, 75, 75);
+}

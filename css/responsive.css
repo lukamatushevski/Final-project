@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1500px) {
+  #card h2 {
+    font-size: 15px;
+  }
+  #card p {
+    display: none;
+  }
+  #card button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  header {
+    background-color: purple;
+  }
+  li a {
+    display: none;
+  }
+  .s-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .kaira img {
+    max-width: 500px;
+  }
+  #card {
+    width: 100%;
+    align-items: center;
+  }
+  #card p {
+    display: none;
+  }
+  #card h2 {
+    font-size: 15px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .column img {
+    width: 450px;
+  }
+  .s-3 {
+    max-width: 640px;
+  }
+  .s-3 h3 {
+    text-align: center;
+  }
+  .column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .s-4 {
+    max-width: 640px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .s-4 h3 {
+    text-align: center;
+    padding: 25px;
+  }
+  .cd {
+    padding: 15px;
+  }
+  .cd a {
+    display: none;
+  }
+
+  .s-2 {
+    max-width: 640px;
+  }
+  .s-1 {
+    max-width: 640px;
+  }
+
+  footer h6 {
+    font-size: 10px !important;
+  }
+  .s-3 h3 {
+    text-align: center;
+    padding: 25px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .text {
+    display: none;
+  }
+  .s-3 {
+    max-width: 300px;
+  }
+  .s-4 {
+    max-width: 300px;
+  }
+  .kaira img {
+    display: none;
+  }
+  #card img {
+    max-width: 250px;
+  }
+  .column img {
+    max-width: 250px;
+  }
+  .logo {
+    width: 250px;
+    text-align: center;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+  .s-2 {
+    max-width: 300px;
+  }
+  .s-1 {
+    max-width: 300px;
+  }
+}
